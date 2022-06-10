@@ -6,4 +6,23 @@
 #hobbiestitre { 
     margin-top: 1%;
     margin-bottom: 1%;
-}
+} 
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/coding.img.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
