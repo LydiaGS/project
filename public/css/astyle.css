@@ -40,14 +40,14 @@ margin-top: 40px;
     align-items: center;
     padding: 5px 20px; 
     text-decoration: none;
-    color: black;
-    border:1px solid #000;
+    color: #000;
+    border:1px #000;
     margin-right: 40px;
     font-size: 18px;
     transition: 0.3s;
 }
 .row a:hover{
-    background-color: lightblue;
+    background-color: #f6d1d8;
     color:#000;
 }
 .row a span{
@@ -71,4 +71,41 @@ h2{
 }
 h1{
     padding-top: 100px;
+}
+#haut{
+    margin-top: 875px;
+}
+body{
+    background:bisque ;
+}
+#m{
+    text-align: center;
+    align-items: center;
+}
+.active {
+    background-color:#f6d1d8 ;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #f6d1d8;
 }
